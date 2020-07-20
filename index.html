@@ -51,8 +51,8 @@
         }
 
         th {
-            color: #D5DDE5;
-            background: #1b1e24;
+            color: #ffff;
+            background: #000099;
             border-bottom: 4px solid #9ea7af;
             border-right: 1px solid #343a45;
             font-size: 20px;
@@ -82,8 +82,8 @@
         }
 
         tr:hover td {
-            background:  #4d4dff;
-            color: #FFFFFF;
+            background: #4E5066;
+            color: #00b3b3;
             border-top: 1px solid #22262e;
         }
 
@@ -96,7 +96,7 @@
         }
 
         tr:nth-child(odd) td {
-            background: #EBEBEB;
+            background: #ffffff;
         }
 
         tr:nth-child(odd):hover td {
@@ -149,12 +149,13 @@
         td.text-right {
             text-align: right;
         }
-	
+		
+		
     </style>
 </head>
 <form id="myForm">
     <div class="table-title">
-        <h3 align="center">CASH COUNTER</h3>
+        <h3 align="center">DEPOSIT TABLE</h3>
     </div>
     <div align="left">
         <table class="table-fill">
@@ -226,13 +227,11 @@
     </div>
     <!--<input type="checkbox" id="remember_me" class="filled-in">
 <label for="remember_me">Remember Me</label>-->
-<div class="container">
-  <div class="vertical-center">
+
     <br>
-	button {background-color: #008CBA;} /* Blue */
-    <p align="center"><button onclick="document.getElementById('x1,x2,x5,x10,x20,x50,x100,x200,x500,x2000').value = ''">Clear Field</button></p>
-	</div>
-	</div
+	
+    <p align="center"><button onclick="document.getElementById('x1,x2,x5,x10,x20,x50,x100,x200,x500,x2000').value = ''">Clear All</button></p>
+
 </form><closeform></closeform>
 </body>
 </html>
